@@ -6,12 +6,16 @@
 
 var express = require('express');
 var app = express();
-var port = 8080;
+var config = require('./config.json');
+// core module to help with urls
+var url = require('url');
+
+app.use(require('cookie-parser')());
 
 app.get('/', function(req, res) {
     res.send("<h3>Hello World</h3>");
 });
 
-app.listen(port, function() {
-    console.log("Server is listening on localhost:%s", port);
+app.listen(config.port, function() {
+    console.log("Server is listening on localhost:%s", config.port);
 });

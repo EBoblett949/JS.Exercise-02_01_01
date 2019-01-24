@@ -1,0 +1,11 @@
+{
+    "port": 8080,
+    "request_token_url": "https://api.twitter.com/oauth/request_token",
+    "access_token_url": "https://api.twitter.com/oauth/access_token", 
+    "authorize_token_url": "https://api.twitter.com/oauth/authorize_token",
+    "consumer_key": "vct20Qio9GGPiX72i2z7FOBvs",
+    "consumer_secret_key": "HZYlttISDi1HIk8pj1ZOXCrCskYtZZZDvWZwAJSDTybKV4KeGI",
+    "oauth_version": "1.0",
+    "oauth_signature": "HMAC-SHAI",
+    "oauth_callback": "https://www.example.com/callback"
+}
